@@ -37,8 +37,13 @@ header a {
     text-decoration: none;
 }
 
-.portrait {
-    width: 100px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+img {
+    float: left;
+    width:  200px;
+    height: 200px;
+    padding: 5px;
+    object-fit: cover;
 }
 
 input {

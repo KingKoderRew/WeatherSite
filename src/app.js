@@ -22,7 +22,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather with the Boys',
+        title: 'Over Your Head.',
         name: 'Branden Rew, Lionel Grant III, Derrick Maddox'
     })
 })
