@@ -29,7 +29,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Us',
-        aboutText: 'We are 3 football players who are looking to start our careers in coding by creating this website that utilizes all the things we have learned in our 4 years at Birminghame Southern College.',
+        aboutText: 'We are 3 football players who are looking to start our careers in coding by creating this website that utilizes all the things we have learned in our 4 years at Birmingham Southern College.',
         name: 'Branden Rew, Lionel Grant III, Derrick Maddox'
     })
 })
